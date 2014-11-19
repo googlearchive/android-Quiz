@@ -14,21 +14,21 @@
  * limitations under the License.
  */
 
-package com.example.android.quiz;
+package com.example.android.wearable.quiz;
 
-import static com.example.android.quiz.Constants.ANSWERS;
-import static com.example.android.quiz.Constants.CHOSEN_ANSWER_CORRECT;
-import static com.example.android.quiz.Constants.CORRECT_ANSWER_INDEX;
-import static com.example.android.quiz.Constants.NUM_CORRECT;
-import static com.example.android.quiz.Constants.NUM_INCORRECT;
-import static com.example.android.quiz.Constants.NUM_SKIPPED;
-import static com.example.android.quiz.Constants.QUESTION;
-import static com.example.android.quiz.Constants.QUESTION_INDEX;
-import static com.example.android.quiz.Constants.QUESTION_WAS_ANSWERED;
-import static com.example.android.quiz.Constants.QUESTION_WAS_DELETED;
-import static com.example.android.quiz.Constants.QUIZ_ENDED_PATH;
-import static com.example.android.quiz.Constants.QUIZ_EXITED_PATH;
-import static com.example.android.quiz.Constants.RESET_QUIZ_PATH;
+import static com.example.android.wearable.quiz.Constants.ANSWERS;
+import static com.example.android.wearable.quiz.Constants.CHOSEN_ANSWER_CORRECT;
+import static com.example.android.wearable.quiz.Constants.CORRECT_ANSWER_INDEX;
+import static com.example.android.wearable.quiz.Constants.NUM_CORRECT;
+import static com.example.android.wearable.quiz.Constants.NUM_INCORRECT;
+import static com.example.android.wearable.quiz.Constants.NUM_SKIPPED;
+import static com.example.android.wearable.quiz.Constants.QUESTION;
+import static com.example.android.wearable.quiz.Constants.QUESTION_INDEX;
+import static com.example.android.wearable.quiz.Constants.QUESTION_WAS_ANSWERED;
+import static com.example.android.wearable.quiz.Constants.QUESTION_WAS_DELETED;
+import static com.example.android.wearable.quiz.Constants.QUIZ_ENDED_PATH;
+import static com.example.android.wearable.quiz.Constants.QUIZ_EXITED_PATH;
+import static com.example.android.wearable.quiz.Constants.RESET_QUIZ_PATH;
 
 import android.app.Activity;
 import android.graphics.Color;

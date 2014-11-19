@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.android.quiz;
+package com.example.android.wearable.quiz;
 
 import android.app.IntentService;
 import android.content.Intent;
@@ -33,8 +33,8 @@ import com.google.android.gms.wearable.Wearable;
 
 import java.util.concurrent.TimeUnit;
 
-import static com.example.android.quiz.Constants.CONNECT_TIMEOUT_MS;
-import static com.example.android.quiz.Constants.QUESTION_WAS_DELETED;
+import static com.example.android.wearable.quiz.Constants.CONNECT_TIMEOUT_MS;
+import static com.example.android.wearable.quiz.Constants.QUESTION_WAS_DELETED;
 
 /**
  * Used to update quiz status on the phone when user dismisses a question on the watch.

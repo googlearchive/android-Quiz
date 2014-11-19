@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.android.quiz;
+package com.example.android.wearable.quiz;
 
 import android.content.Context;
 

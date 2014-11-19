@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.android.quiz;
+package com.example.android.wearable.quiz;
 
 import android.app.IntentService;
 import android.app.NotificationManager;
@@ -34,9 +34,9 @@ import com.google.android.gms.wearable.Wearable;
 
 import java.util.concurrent.TimeUnit;
 
-import static com.example.android.quiz.Constants.CHOSEN_ANSWER_CORRECT;
-import static com.example.android.quiz.Constants.QUESTION_INDEX;
-import static com.example.android.quiz.Constants.QUESTION_WAS_ANSWERED;
+import static com.example.android.wearable.quiz.Constants.CHOSEN_ANSWER_CORRECT;
+import static com.example.android.wearable.quiz.Constants.QUESTION_INDEX;
+import static com.example.android.wearable.quiz.Constants.QUESTION_WAS_ANSWERED;
 
 /**
  * Updates quiz status on the phone when user selects an answer to a question on the watch.

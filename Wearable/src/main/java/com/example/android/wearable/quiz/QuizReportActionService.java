@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.android.quiz;
+package com.example.android.wearable.quiz;
 
 import android.app.IntentService;
 import android.content.Intent;
@@ -28,15 +28,15 @@ import com.google.android.gms.wearable.Wearable;
 
 import java.util.concurrent.TimeUnit;
 
-import static com.example.android.quiz.Constants.CONNECT_TIMEOUT_MS;
-import static com.example.android.quiz.Constants.RESET_QUIZ_PATH;
+import static com.example.android.wearable.quiz.Constants.CONNECT_TIMEOUT_MS;
+import static com.example.android.wearable.quiz.Constants.RESET_QUIZ_PATH;
 
 /**
  * Service to reset the quiz (by sending a message to the phone) when the Reset Quiz
  * action on the Quiz Report is selected.
  */
 public class QuizReportActionService extends IntentService {
-    public static final String ACTION_RESET_QUIZ = "com.example.android.quiz.RESET_QUIZ";
+    public static final String ACTION_RESET_QUIZ = "com.example.android.wearable.quiz.RESET_QUIZ";
 
     private static final String TAG = "QuizReportActionReceiver";
 

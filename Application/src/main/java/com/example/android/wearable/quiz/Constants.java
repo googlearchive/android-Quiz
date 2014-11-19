@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.example.android.quiz;
+package com.example.android.wearable.quiz;
 
-/** Constants used in the wearable app. */
+/** Constants used in the companion app. */
 public final class Constants {
     private Constants() {
     }
@@ -36,6 +36,4 @@ public final class Constants {
     public static final String QUIZ_ENDED_PATH = "/quiz_ended";
     public static final String QUIZ_EXITED_PATH = "/quiz_exited";
     public static final String RESET_QUIZ_PATH = "/reset_quiz";
-
-    public static final int CONNECT_TIMEOUT_MS = 100;
 }
